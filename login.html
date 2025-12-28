@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login</title>
+<link rel="stylesheet" href="login.css">
+</head>
+
+<body>
+
+<header>
+    Delicious Bites Restaurant
+    <span>Authentic Taste of Pakistan</span>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="menu.html">Menu</a>
+    <a href="order.html">Order</a>
+</nav>
+
+<main>
+    <div id="login" class="container active">
+        <h2 id="formTitle">Login</h2>
+
+        <form id="loginForm" onsubmit="alert('Login Successful'); return false;">
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button>Login</button>
+        </form>
+
+        <form id="signupForm" style="display:none;" onsubmit="alert('Account Created'); return false;">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="text" placeholder="Username" required>
+            <input type="password" placeholder="Password" required>
+            <button>Sign Up</button>
+        </form>
+
+        <p class="switch-text" id="switchText">
+            Don’t have an account? <span onclick="showSignup()">Sign Up</span>
+        </p>
+    </div>
+</main>
+
+<footer>
+    <p>Phone: +92 300 1234567 | Email: info@deliciousbites.pk</p>
+    <p>Address: 123 Food Street, Lahore, Pakistan</p>
+    <p>
+        Follow us: 
+        <a href="#">Facebook</a> | 
+        <a href="#">Instagram</a> | 
+        <a href="#">Twitter</a>
+    </p>
+</footer>
+
+<script src="login.js"></script>
+</body>
+</html>

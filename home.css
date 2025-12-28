@@ -1,0 +1,143 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: url('https://royalmahal.co.uk/storage/2023/01/indian-restaurant-scaled-e1670322083921.jpg') center fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER (Improved) */
+header {
+    background: linear-gradient(to right, rgba(255,99,71,0.95), rgba(255,140,105,0.95));
+    color: white;
+    padding: 35px 20px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+header span {
+    display: block;
+    font-size: 0.45em;
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+/* NAV BAR (UNCHANGED) */
+nav {
+    background: rgba(51,51,51,0.9);
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    padding: 14px 20px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+nav a:hover { background:#575757; }
+
+/* MAIN */
+main {
+    flex: 1;
+}
+
+/* CONTAINER (Improved) */
+.container {
+    background: rgba(255,255,255,0.96);
+    margin: 60px auto;
+    padding: 60px;
+    max-width: 900px;
+    border-radius: 15px;
+    box-shadow: 0 15px 40px rgba(0,0,0,0.25);
+}
+
+/* TEXT STYLING */
+.container h2 {
+    text-align: center;
+    font-size: 2.3em;
+    margin-bottom: 10px;
+text-decoration:underline;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+.description {
+    text-align: center;
+    margin-top: 25px;
+    line-height: 1.8;
+    font-size: 1.05em;
+}
+
+/* BUTTONS */
+.btn-group {
+    text-align: center;
+    margin-top: 35px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 28px;
+    margin: 10px;
+    background: tomato;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: #e5533d;
+}
+
+.btn-outline {
+    background: transparent;
+    color: tomato;
+    border: 2px solid tomato;
+}
+
+.btn-outline:hover {
+    background: tomato;
+    color: white;
+}
+
+/* WHY CHOOSE US */
+.features {
+    max-width: 600px;
+    margin: 30px auto 0;
+    font-size: 1.1em;
+    line-height: 2;
+}
+
+/* FOOTER (UNCHANGED) */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    font-size: 0.9em;
+    width: 100%;
+    margin-top: 50px;
+}
+
+footer a {
+    color: tomato;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
