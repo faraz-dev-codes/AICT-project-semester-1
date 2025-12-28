@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Order | Delicious Bites Restaurant</title>
+<link rel="stylesheet" href="order.css">
+</head>
+
+<body>
+
+<header>
+    Delicious Bites Restaurant
+    <span>Authentic Taste of Pakistan</span>
+</header>
+
+<nav>
+    <a href="home.html">Home</a>
+    <a href="login.html">Login</a>
+    <a href="menu.html">Menu</a>
+    <a href="order.html">Order</a>
+</nav>
+
+<div id="order" class="container active">
+<h2>Place Your Order</h2>
+
+<input type="text" placeholder="Customer Name" id="custName" required>
+<input type="text" placeholder="Phone Number" id="phone" required>
+
+
+<!-- ⭐ Starters -->
+<div class="menu-section">
+<h3>⭐ Starters</h3>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Chicken Soup" data-price="100"> Chicken Soup (Rs 100)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Vegetable Samosa" data-price="50"> Vegetable Samosa (Rs 50)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Chicken Pakora" data-price="50"> Chicken Pakora (Rs 50)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="6 Gol Gappay" data-price="50"> 6 Gol Gappay (Rs 50)</label>
+<input type="number" min="1">
+</div>
+</div>
+
+<!-- 🍛 Main Courses -->
+<div class="menu-section">
+<h3>🍛 Main Courses</h3>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Chicken Biryani" data-price="150"> Chicken Biryani (Rs 150)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Beef Biryani" data-price="200"> Beef Biryani (Rs 200)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Chicken Handi" data-price="300"> Chicken Handi (Rs 300)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Mutton Karahi" data-price="300"> Mutton Karahi (Rs 300)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Nihari" data-price="300"> Nihari (Rs 300)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Haleem" data-price="250"> Haleem (Rs 250)</label>
+<input type="number" min="1">
+</div>
+</div>
+
+<!-- 🔥 BBQ -->
+<div class="menu-section">
+<h3>🔥 BBQ</h3>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Chicken Tikka" data-price="250"> Chicken Tikka (Rs 250)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Malai Boti" data-price="350"> Malai Boti (Rs 350)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Seekh Kabab" data-price="400"> Seekh Kabab (Rs 400)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Beef Bihari Boti" data-price="400"> Beef Bihari Boti (Rs 400)</label>
+<input type="number" min="1">
+</div>
+</div>
+
+<!-- 🍲 Karahi -->
+<div class="menu-section">
+<h3>🍲 Karahi Specials</h3>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Chicken Karahi" data-price="400"> Chicken Karahi (Rs 400)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="White Karahi" data-price="400"> White Karahi (Rs 400)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Mutton Karahi" data-price="400"> Mutton Karahi (Rs 400)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Special Shinwari Karahi" data-price="450"> Special Shinwari Karahi (Rs 450)</label>
+<input type="number" min="1">
+</div>
+</div>
+
+<!-- 🍚 Rice -->
+<div class="menu-section">
+<h3>🍚 Rice Dishes</h3>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Sindhi Biryani" data-price="350"> Sindhi Biryani (Rs 350)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Chicken Pulao" data-price="350"> Chicken Pulao (Rs 350)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Beef Yakhni Pulao" data-price="300"> Beef Yakhni Pulao (Rs 300)</label>
+<input type="number" min="1">
+</div>
+</div>
+
+<!-- 🍮 Desserts -->
+<div class="menu-section">
+<h3>🍮 Desserts</h3>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Kheer" data-price="150"> Kheer (Rs 150)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Gajar ka Halwa" data-price="150"> Gajar ka Halwa (Rs 150)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Gulab Jamun" data-price="30"> 1 Gulab Jamun (Rs 30)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Rabri" data-price="200"> Rabri (Rs 200)</label>
+<input type="number" min="1">
+</div>
+</div>
+
+<!-- 🥤 Drinks -->
+<div class="menu-section">
+<h3>🥤 Drinks</h3>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Mint Margarita" data-price="150"> Mint Margarita (Rs 150)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Pina Colada" data-price="150"> Pina Colada (Rs 150)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Lemonade" data-price="150"> Lemonade (Rs 150)</label>
+<input type="number" min="1">
+</div>
+
+<div class="order-item">
+<label><input type="checkbox" data-name="Cold Drinks" data-price="150"> Cold Drinks (Rs 150)</label>
+<input type="number" min="1">
+</div>
+</div>
+
+<textarea placeholder="Delivery Address" id="address" required></textarea>
+
+<button onclick="reviewOrder()">Review Order</button>
+
+<div id="orderSummary">
+<h3>Order Summary</h3>
+<ul id="summaryList"></ul>
+<p class="total">Total: Rs <span id="totalAmount">0</span></p>
+<button onclick="confirmOrder()">Confirm Order</button>
+</div>
+
+</div>
+
+<script src="order.js"></script>
+</body>
+</html>
